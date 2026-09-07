@@ -99,7 +99,7 @@ export default function Home() {
           {/* Frame Foto */}
           <div className="shadow-drop-2-center relative aspect-square overflow-hidden rounded-[2.5rem] border border-slate-200/80 bg-slate-100 dark:border-white/10 dark:bg-[#15141b]/60">
             <Image
-              src="/Image/Backroundawl.png"
+              src="/Image/backroundawl.png"
               alt={content.hero.photoAlt}
               fill
               priority
