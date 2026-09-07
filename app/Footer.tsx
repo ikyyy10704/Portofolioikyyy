@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import Link from "next/link";
@@ -17,6 +18,13 @@ export function Footer() {
     { label: content.nav.experience, href: "/#experience" },
   ];
 
+=======
+import Link from "next/link";
+import { MapPin, Mail, Phone, ArrowRight } from "lucide-react";
+import { FadeIn } from "./FadeIn";
+
+export function Footer() {
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
   return (
     <footer id="contact" className="bg-[#111111] py-16 text-slate-300 dark:bg-[#0a0a0a]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -26,14 +34,22 @@ export function Footer() {
             <div>
               <h2 className="text-3xl font-bold text-white">Rizki Pangestu</h2>
               <p className="mt-4 max-w-sm text-sm leading-relaxed text-slate-400">
+<<<<<<< HEAD
                 {content.footer.tagline}
+=======
+                A creator exploring tech and AI. Building digital experiences and sharing the journey.
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
               </p>
             </div>
 
             <div className="space-y-4 text-sm font-medium text-slate-400">
               <div className="flex items-center gap-3">
                 <MapPin size={18} className="text-slate-500" />
+<<<<<<< HEAD
                 <span>{content.footer.location}</span>
+=======
+                <span>Daeraah Istimewa Yogyakarta, Indonesia</span>
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-slate-500" />
@@ -50,7 +66,11 @@ export function Footer() {
             </div>
 
             <div className="space-y-4">
+<<<<<<< HEAD
               <p className="text-sm font-semibold text-white">{content.footer.followMe}</p>
+=======
+              <p className="text-sm font-semibold text-white">Follow me</p>
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
               <div className="flex items-center gap-4">
                 {/* Instagram */}
                 <a href="https://www.instagram.com/rizkypgestu?igsh=MTFtN21leDBibzh4Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-slate-500 transition-colors hover:text-white">
@@ -86,7 +106,11 @@ export function Footer() {
 
             <div className="pt-4">
               <a href="mailto:riskypangestu057@gmail.com" className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-slate-900 transition hover:bg-slate-200">
+<<<<<<< HEAD
                 {content.footer.workTogether}
+=======
+                Let&apos;s Work Together
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
                 <ArrowRight size={16} />
               </a>
             </div>
@@ -94,6 +118,7 @@ export function Footer() {
 
           {/* Tengah: Services */}
           <FadeIn variant="up" delay={100}>
+<<<<<<< HEAD
             <h3 className="mb-6 text-sm font-bold text-white">{content.footer.servicesTitle}</h3>
             <ul className="space-y-4 text-sm text-slate-400">
               {content.footer.services.map((service) => (
@@ -101,11 +126,21 @@ export function Footer() {
                   <a href="#" className="transition-colors hover:text-white">{service}</a>
                 </li>
               ))}
+=======
+            <h3 className="mb-6 text-sm font-bold text-white">Services</h3>
+            <ul className="space-y-4 text-sm text-slate-400">
+              <li><a href="#" className="transition-colors hover:text-white">Full Stack Development</a></li>
+              <li><a href="#" className="transition-colors hover:text-white">Data Science & ML</a></li>
+              <li><a href="#" className="transition-colors hover:text-white">Web Analytics</a></li>
+              <li><a href="#" className="transition-colors hover:text-white">UI/UX Design</a></li>
+              <li><a href="#" className="transition-colors hover:text-white">Company Profile</a></li>
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
             </ul>
           </FadeIn>
 
           {/* Kanan: Quick Links */}
           <FadeIn variant="right" delay={200}>
+<<<<<<< HEAD
             <h3 className="mb-6 text-sm font-bold text-white">{content.footer.quickLinksTitle}</h3>
             <ul className="space-y-4 text-sm text-slate-400">
               {quickLinks.map((link) => (
@@ -115,16 +150,32 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+=======
+            <h3 className="mb-6 text-sm font-bold text-white">Quick Links</h3>
+            <ul className="space-y-4 text-sm text-slate-400">
+              <li><Link href="/#home" className="transition-colors hover:text-white">Home</Link></li>
+              <li><Link href="/#about" className="transition-colors hover:text-white">About</Link></li>
+              <li><Link href="/#skills" className="transition-colors hover:text-white">Skills</Link></li>
+              <li><Link href="/#projects" className="transition-colors hover:text-white">Projects</Link></li>
+              <li><Link href="/#experience" className="transition-colors hover:text-white">Experience</Link></li>
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
             </ul>
           </FadeIn>
         </div>
 
         {/* Bottom */}
         <div className="mt-20 flex flex-col items-center justify-between gap-4 border-t border-slate-800 pt-8 text-xs text-slate-500 sm:flex-row">
+<<<<<<< HEAD
           <p>{content.footer.copyright}</p>
           <div className="flex gap-6">
             <a href="#" className="transition-colors hover:text-white">{content.footer.privacy}</a>
             <a href="#" className="transition-colors hover:text-white">{content.footer.terms}</a>
+=======
+          <p>© 2026 Rizki Pangestu. All rights reserved.</p>
+          <div className="flex gap-6">
+            <a href="#" className="transition-colors hover:text-white">Privacy Policy</a>
+            <a href="#" className="transition-colors hover:text-white">Terms of Service</a>
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
           </div>
         </div>
       </div>

@@ -39,9 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+<<<<<<< HEAD
 
 # Media besar yang tidak direferensikan aplikasi. Berkasnya tetap ada di disk,
 # hanya tidak ikut ke git karena GitHub menolak file di atas 100 MB.
 /public/Image/*.mp4
 /public/Image/*.docx
 /public/Image/excel.htm
+=======
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c

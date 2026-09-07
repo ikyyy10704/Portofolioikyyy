@@ -124,6 +124,7 @@ export function Navbar({
 
         {/* ── Right: toggle + CTA + Mobile Menu Button ────────────── */}
         <div className="flex shrink-0 items-center gap-2 pr-1">
+<<<<<<< HEAD
           <LanguageToggle />
           <ThemeToggle />
 
@@ -132,6 +133,15 @@ export function Navbar({
             className="hidden sm:inline-block whitespace-nowrap rounded-full bg-slate-900 font-bold text-white transition-all hover:scale-[1.03] hover:bg-slate-700 dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200 px-5 py-2.5 text-sm"
           >
             {callToAction.label}
+=======
+          <ThemeToggle />
+
+          <Link
+            href={cta.href}
+            className="hidden sm:inline-block whitespace-nowrap rounded-full bg-slate-900 font-bold text-white transition-all hover:scale-[1.03] hover:bg-slate-700 dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200 px-5 py-2.5 text-sm"
+          >
+            {cta.label}
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
           </Link>
 
           {/* Hamburger Button (Mobile) */}
@@ -177,11 +187,19 @@ export function Navbar({
           })}
           <div className="pt-3 mt-1 border-t border-slate-200/50 dark:border-white/10 sm:hidden">
             <Link
+<<<<<<< HEAD
               href={callToAction.href}
               onClick={() => setMobileMenuOpen(false)}
               className="block w-full rounded-2xl bg-slate-900 px-5 py-3.5 text-center text-sm font-bold text-white transition-colors hover:bg-slate-800 dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200"
             >
               {callToAction.label}
+=======
+              href={cta.href}
+              onClick={() => setMobileMenuOpen(false)}
+              className="block w-full rounded-2xl bg-slate-900 px-5 py-3.5 text-center text-sm font-bold text-white transition-colors hover:bg-slate-800 dark:bg-white dark:text-slate-950 dark:hover:bg-slate-200"
+            >
+              {cta.label}
+>>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
             </Link>
           </div>
         </div>
