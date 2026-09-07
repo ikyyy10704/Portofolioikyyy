@@ -98,7 +98,7 @@ const english: SiteContent = {
       "On the data side, I work with machine learning, computer vision, predictive analytics, recommendation systems, and dashboarding. I enjoy turning raw information into products that are practical, clear, and ready for users.",
     ],
     stats: [
-      { value: "3.84", label: "GPA / 4.00" },
+      { value: "3.87", label: "GPA / 4.00" },
       { value: "14", label: "Real Projects" },
       { value: "45%", label: "Engagement Growth" },
       { value: "2", label: "Languages" },
@@ -259,7 +259,7 @@ const indonesian: SiteContent = {
       "Di sisi data, saya bekerja dengan machine learning, computer vision, analitik prediktif, sistem rekomendasi, dan dasbor. Saya menikmati proses mengubah data mentah menjadi produk yang praktis, jelas, dan siap dipakai pengguna.",
     ],
     stats: [
-      { value: "3.84", label: "IPK / 4.00" },
+      { value: "3.87", label: "IPK / 4.00" },
       { value: "14", label: "Proyek Nyata" },
       { value: "45%", label: "Pertumbuhan Engagement" },
       { value: "2", label: "Bahasa" },
