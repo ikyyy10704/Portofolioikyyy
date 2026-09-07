@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use client";
 
 import { Navbar } from "./Navbar";
@@ -14,42 +13,18 @@ import { siteContent } from "./i18n/content";
 
 const skillVisuals = [
   {
-=======
-import { Navbar } from "./Navbar";
-import Image from "next/image";
-import { ArrowUpRight, Code2, LineChart, Palette } from "lucide-react";
-import { ScrollText } from "./ScrollText";
-import { FadeIn } from "./FadeIn";
-import { projects } from "./data/projects";
-import { Footer } from "./Footer";
-
-const skillGroups = [
-  {
-    title: "Full Stack Development",
-    subtitle: "Production web systems and API integration",
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
     icon: Code2,
     accent: "from-cyan-500/20 to-blue-500/10",
     iconColor: "text-cyan-500 dark:text-cyan-300",
     items: ["PHP", "Laravel", "CodeIgniter", "Next.js", "React", "MySQL", "REST API", "Git"],
   },
   {
-<<<<<<< HEAD
-=======
-    title: "Data Science & Analytics",
-    subtitle: "Machine learning, dashboards, and predictive analytics",
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
     icon: LineChart,
     accent: "from-violet-500/20 to-fuchsia-500/10",
     iconColor: "text-violet-500 dark:text-violet-300",
     items: ["Python", "Pandas", "NumPy", "Machine Learning", "Recommendation Systems", "Tableau", "Looker Studio", "SQL"],
   },
   {
-<<<<<<< HEAD
-=======
-    title: "Design & Creative",
-    subtitle: "Visual communication for products and campaigns",
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
     icon: Palette,
     accent: "from-amber-500/20 to-rose-500/10",
     iconColor: "text-amber-500 dark:text-amber-300",
@@ -59,7 +34,6 @@ const skillGroups = [
 
 
 
-<<<<<<< HEAD
 
 export default function Home() {
   const { language } = useLanguage();
@@ -69,87 +43,6 @@ export default function Home() {
     ...content.skills.groups[index],
   }));
 
-=======
-const experiences = [
-  {
-    role: "Data Scientist Participant",
-    company: "Coding Camp 2026 - Dicoding & DBS Foundation",
-    date: "Feb 2026 - Jul 2026",
-    description: [
-      "Completed an intensive Data Scientist learning path covering Python programming, machine learning, and data visualization.",
-      "Built capstone project 'Jivara': a health-tech application for food detection and medication adherence tracking using CV and AI.",
-      "Prepared ML datasets and developed a Streamlit dashboard for monitoring food-drug interactions."
-    ]
-  },
-  {
-    role: "Full Stack Developer",
-    company: "CV. GASNI ADITAMA KONSTRUKSI",
-    date: "June 2025 - May 2026",
-    description: [
-      "Developed and enhanced features for an in-house construction management system to support daily operations.",
-      "Maintained system performance and managed structured data input to ensure database accuracy.",
-      "Built and integrated new modules using PHP (CI3), MySQL, and REST API based on evolving business needs."
-    ]
-  },
-  {
-    role: "Speaker (Crypto Enthusiast)",
-    company: "Talk Show FORBISDA HIPMI DIY Blockchain 101",
-    date: "Feb 2026",
-    description: [
-      "Delivered presentations on blockchain fundamentals and cryptocurrency ecosystems.",
-      "Educated participants about opportunities and risks in the blockchain industry.",
-      "Shared insights on Web3 trends, crypto adoption, and digital assets."
-    ]
-  },
-  {
-    role: "Board of Director - Business Pillar",
-    company: "JJC Amikom Jogja",
-    date: "Feb 2026",
-    description: [
-      "Contributed to business development strategies and community growth initiatives.",
-      "Supported cross-division collaboration to drive the organization's business-oriented programs."
-    ]
-  },
-  {
-    role: "Ketua Divisi OKK",
-    company: "HIPMI PT Amikom Yogyakarta",
-    date: "Jun 2024 - March 2025",
-    description: [
-      "Led the membership recruitment, onboarding, and cadre development division.",
-      "Managed organizational programs to strengthen member engagement and institutional capacity."
-    ]
-  },
-  {
-    role: "Data Science Division Member",
-    company: "AMCC (Amikom Computer Club)",
-    date: "Dec 2023 - Jul 2024",
-    description: [
-      "Actively contributed to data science discussions, knowledge sharing, and internal workshops.",
-      "Collaborated with fellow members on data-related projects and technical problem-solving sessions.",
-      "Completed a final project assigned by AMCC facilitators as part of the division's structured learning program."
-    ]
-  },
-  {
-    role: "Junior Graphic Designer",
-    company: "KBMDG STUDIO",
-    date: "Jan 2022 - Jun 2022",
-    description: [
-      "Led the development of various design projects by collaborating with creative team members.",
-      "Conceptualized and delivered 20+ distinct design projects with 100% client satisfaction rate.",
-      "Pioneered a new design approach that reduced revision cycles."
-    ]
-  }
-];
-
-const stats = [
-  { value: "3.84", label: "GPA / 4.00" },
-  { value: "10+", label: "Real Projects" },
-  { value: "45%", label: "Engagement Growth" },
-  { value: "2", label: "Languages" },
-];
-
-export default function Home() {
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
   return (
     <main className="relative min-h-screen bg-white overflow-hidden text-slate-900 transition-colors duration-300 dark:bg-[#08090d] dark:text-white">
 
@@ -162,31 +55,19 @@ export default function Home() {
         <div className="flex flex-col justify-center">
           <FadeIn delay={0}>
             <p className="mb-5 w-fit rounded-full border border-cyan-400/40 bg-cyan-400/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-cyan-600 dark:text-cyan-300">
-<<<<<<< HEAD
               {content.hero.badge}
-=======
-              Full Stack Developer + Data Scientist
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
             </p>
           </FadeIn>
 
           <FadeIn delay={100}>
             <h1 className="max-w-4xl text-4xl font-black leading-tight text-slate-900 sm:text-5xl lg:text-7xl dark:text-white">
-<<<<<<< HEAD
               {content.hero.title}
-=======
-              Building web systems and data products that solve real business problems.
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
             </h1>
           </FadeIn>
 
           <FadeIn delay={200}>
             <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg dark:text-slate-300">
-<<<<<<< HEAD
               {content.hero.intro}
-=======
-              I am Rizki Pangestu, an Information Systems student at Universitas Amikom Yogyakarta with hands-on experience in production web applications, machine learning, analytics dashboards, and AI-powered product features.
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
             </p>
           </FadeIn>
 
@@ -196,11 +77,7 @@ export default function Home() {
                 href="#projects"
                 className="rounded-xl bg-slate-900 px-6 py-3 text-center text-sm font-bold text-white transition hover:bg-slate-700 dark:bg-white dark:text-slate-950 dark:hover:bg-cyan-200"
               >
-<<<<<<< HEAD
                 {content.hero.viewProjects}
-=======
-                View Projects
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
               </a>
               <a
                 href="/Document/CV%20ATS%20Rizi%20Pangestu.pdf"
@@ -208,11 +85,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="rounded-xl border border-slate-300 bg-slate-100 px-6 py-3 text-center text-sm font-bold text-slate-700 transition hover:border-cyan-400 hover:bg-slate-200 dark:border-white/15 dark:bg-white/5 dark:text-white dark:hover:border-cyan-300/60 dark:hover:bg-white/10"
               >
-<<<<<<< HEAD
                 {content.hero.downloadCv}
-=======
-                Download CV
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
               </a>
             </div>
           </FadeIn>
@@ -227,11 +100,7 @@ export default function Home() {
           <div className="shadow-drop-2-center relative aspect-square overflow-hidden rounded-[2.5rem] border border-slate-200/80 bg-slate-100 dark:border-white/10 dark:bg-[#15141b]/60">
             <Image
               src="/Image/Backroundawl.png"
-<<<<<<< HEAD
               alt={content.hero.photoAlt}
-=======
-              alt="Rizki Pangestu - Full Stack Developer & Data Scientist"
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
               fill
               priority
               className="object-cover transition-transform duration-700 hover:scale-105"
@@ -280,7 +149,6 @@ export default function Home() {
       <section id="about" className="border-y border-slate-200 bg-slate-50 dark:border-white/10 dark:bg-white/[0.03]">
         <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8 lg:py-24">
           <FadeIn variant="left">
-<<<<<<< HEAD
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-600 dark:text-cyan-300">{content.about.eyebrow}</p>
             <h2 className="mt-4 text-3xl font-black leading-tight text-slate-900 sm:text-4xl dark:text-white">
               {content.about.heading}
@@ -294,26 +162,6 @@ export default function Home() {
             ))}
             <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-4">
               {content.about.stats.map((stat, index) => (
-=======
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-600 dark:text-cyan-300">About</p>
-            <h2 className="mt-4 text-3xl font-black leading-tight text-slate-900 sm:text-4xl dark:text-white">
-              A hybrid builder for software, analytics, and creative problem solving.
-            </h2>
-          </FadeIn>
-          <div className="space-y-5 text-base leading-7 text-slate-600 dark:text-slate-300">
-            <FadeIn variant="right" delay={100}>
-              <p>
-                My work connects full stack engineering with data science. I have developed production-ready systems for construction operations, laboratory workflows, SaaS laundry management, and trading journals with AI-driven analysis.
-              </p>
-            </FadeIn>
-            <FadeIn variant="right" delay={200}>
-              <p>
-                On the data side, I work with machine learning, computer vision, predictive analytics, recommendation systems, and dashboarding. I enjoy turning raw information into products that are practical, clear, and ready for users.
-              </p>
-            </FadeIn>
-            <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-4">
-              {stats.map((stat, index) => (
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
                 <FadeIn key={stat.label} variant="zoom" delay={index * 80}>
                   <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-400/60 hover:shadow-lg dark:border-white/10 dark:bg-slate-950/60 dark:hover:border-cyan-300/40">
                     <div className="text-2xl font-black text-slate-900 dark:text-white">{stat.value}</div>
@@ -329,15 +177,9 @@ export default function Home() {
       {/* ─── SKILLS ─── */}
       <section id="skills" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <FadeIn variant="up" className="max-w-3xl">
-<<<<<<< HEAD
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-600 dark:text-cyan-300">{content.skills.eyebrow}</p>
           <h2 className="mt-4 text-3xl font-black text-slate-900 sm:text-4xl dark:text-white">
             {content.skills.heading}
-=======
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-600 dark:text-cyan-300">Skills</p>
-          <h2 className="mt-4 text-3xl font-black text-slate-900 sm:text-4xl dark:text-white">
-            Technical toolkit from CV and project experience.
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
           </h2>
         </FadeIn>
         <div className="mt-10 grid gap-5 lg:grid-cols-3">
@@ -372,91 +214,21 @@ export default function Home() {
       {/* ─── PROJECTS ─── */}
       <section id="projects" className="bg-slate-50 dark:bg-white/[0.03]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
-<<<<<<< HEAD
           <ProjectsGrid projects={projects} />
-=======
-          
-          <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-600 dark:text-cyan-300">Projects</p>
-              <h2 className="mt-4 text-3xl font-black text-slate-900 sm:text-4xl dark:text-white">
-                My Portfolio.
-              </h2>
-            </div>
-            <a 
-              href="#projects" 
-              className="group flex w-fit items-center gap-2 rounded-full border border-slate-300 bg-white px-5 py-2 text-sm font-bold text-slate-700 transition hover:bg-slate-100 dark:border-white/10 dark:bg-[#15141b] dark:text-white dark:hover:bg-white/10"
-            >
-              View All Projects 
-              <ArrowUpRight size={16} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-            </a>
-          </div>
-
-          <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-            {projects.map((project, index) => (
-              <FadeIn key={project.title} delay={index * 100}>
-                <a 
-                  href={`/project/${project.slug}`} 
-                  className="group relative flex aspect-[4/5] sm:aspect-square md:aspect-[4/5] w-full flex-col justify-end overflow-hidden rounded-3xl bg-slate-200 dark:bg-slate-800"
-                >
-                  {/* Background Image / Placeholder */}
-                  {/* Jika nanti Anda punya gambar project asli, ganti div ini dengan <Image src={project.image} fill className="object-cover" /> */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-900 to-slate-900 transition-transform duration-700 group-hover:scale-105" />
-                  
-                  {/* Overlay Gradient Hitam di bawah teks */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 transition-opacity group-hover:opacity-100" />
-
-                  {/* Konten Text */}
-                  <div className="relative z-10 flex flex-col justify-end p-6 md:p-8">
-                    <p className="text-xs font-bold uppercase tracking-wider text-cyan-400">
-                      {project.category}
-                    </p>
-                    <h3 className="mt-2 text-xl font-black leading-tight text-white sm:text-2xl">
-                      {project.title}
-                    </h3>
-                    
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      {project.tags.slice(0, 3).map((tag) => (
-                        <span key={tag} className="rounded-full bg-white/20 px-3 py-1 text-xs font-medium text-white backdrop-blur-md">
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Icon Panah Pop Up */}
-                  <div className="absolute bottom-6 right-6 z-10 flex h-10 w-10 translate-y-4 items-center justify-center rounded-full bg-white/20 text-white opacity-0 backdrop-blur-md transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-                    <ArrowUpRight size={20} />
-                  </div>
-                </a>
-              </FadeIn>
-            ))}
-          </div>
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
         </div>
       </section>
 
       {/* ─── EXPERIENCE ─── */}
       <section id="experience" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="max-w-3xl">
-<<<<<<< HEAD
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-600 dark:text-cyan-300">{content.experience.eyebrow}</p>
           <h2 className="mt-4 text-3xl font-black text-slate-900 sm:text-4xl dark:text-white">
             {content.experience.heading}
-=======
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-cyan-600 dark:text-cyan-300">Experience</p>
-          <h2 className="mt-4 text-3xl font-black text-slate-900 sm:text-4xl dark:text-white">
-            Career, education, and organization highlights.
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
           </h2>
         </div>
 
         <div className="mt-16 border-l-2 border-slate-200 dark:border-white/10 ml-3 md:ml-6 space-y-12">
-<<<<<<< HEAD
           {content.experience.entries.map((item, index) => {
-=======
-          {experiences.map((item, index) => {
->>>>>>> a664042ace8f9adf8f60267bdd8c05a65db3608c
             // Node pertama aktif
             const isActive = index === 0;
 
